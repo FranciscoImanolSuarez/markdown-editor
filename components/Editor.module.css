@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textarea {
+  width: 35vw;
+  height: 540px;
+  background: white;
+  border: 3px solid black;
+  color: black;
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+  margin: 4px;
+}
+.output {
+  font-size: 18px;
+  width: 35vw;
+  height: 540px;
+  background: #fff0e5;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  line-height: 3rem;
+  margin: 4px;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+}
+
+@media (max-width: 800px) {
+  .flexContainer {
+    flex-direction: column;
+  }
+
+  .textarea {
+    width: 75vw;
+    height: 390px;
+    background: white;
+    border: 3px solid black;
+    color: black;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+  }
+  .output {
+    font-size: 18px;
+    width: 75vw;
+    height: 390px;
+    background: #fff0e5;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    line-height: 3rem;
+    margin-top: 10px;
+  }
+}

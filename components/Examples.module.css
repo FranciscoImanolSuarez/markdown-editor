@@ -1,0 +1,14 @@
+.sectionText{
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: black;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+}
